@@ -14,14 +14,14 @@
     height: 60px;
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 10px;
     gap: 20px;
  }
 button{
     border: 0px;
     padding: 20px;
     background-color:aqua;
-    font-size: 30px;
+    font-size: 15px;
 }
 .sub2>img{
     height: 300px;
