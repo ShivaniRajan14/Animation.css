@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin:50px;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.item{
+    border: 2px solid rgb(19, 19, 33);
+    height: 40px;
+    width: 40px;
+    background: radial-gradient(circle, rgb(218, 65, 192) 0%, rgb(19, 86, 149) 100%);
+
+    
+}
+@keyframes music {
+    from{
+    }
+    to{
+        height: 150px;
+    }
+}
+.item1,
+.item3,
+.item5,
+.item7,
+.item9,
+.item11{
+    animation: music 0.5s linear infinite;
+    animation-direction: alternate-reverse;
+}
+.item2,
+.item4,
+.item6,
+.item8,
+.item10,
+.item12{
+    animation: music 0.3s linear infinite;
+    animation-direction: alternate;
+}
